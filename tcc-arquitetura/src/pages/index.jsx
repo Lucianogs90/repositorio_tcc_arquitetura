@@ -1,13 +1,12 @@
 import Link from "next/link";
 import Header from "../components/Header";
+import CardList from "../components/CardList";
 
 export default function Home() {
   return (
     <>
       <Header />
-      
-      Página Inicial
-      <Link href="/visualizar">Visualizar</Link>
+      <CardList />
     </>
   );
 }
